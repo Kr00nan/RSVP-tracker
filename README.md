@@ -1,2 +1,2 @@
-# first-js-program
+# js-tinkering
 [Treehouse] JavaScript Basics track
