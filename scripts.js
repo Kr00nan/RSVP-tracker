@@ -92,7 +92,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 remove: () => {
                     ul.removeChild(li);
                 },
-    
                 edit: () => {
                     const span = li.firstElementChild;
                     const input = document.createElement('input');
@@ -102,7 +101,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     li.removeChild(span);
                     button.textContent = 'save';
                 },
-    
                 save: () => {
                     const input = li.firstElementChild;
                     const span = document.createElement('span');
