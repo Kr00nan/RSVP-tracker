@@ -58,8 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
         return li;
     }
 
-
-
     form.addEventListener('submit', (event) => {
         event.preventDefault();
         const text = input.value;
@@ -67,6 +65,8 @@ document.addEventListener('DOMContentLoaded', () => {
             input.value = "";
             const li = createLI(text);
             ul.appendChild(li);
+        } else {
+            alert('The name field was left blank. Please, try again.');
         }
     });
 
