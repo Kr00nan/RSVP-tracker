@@ -1,2 +1,2 @@
-# js-tinkering
+# RSVP-tracker
 [Treehouse] JavaScript Basics track
